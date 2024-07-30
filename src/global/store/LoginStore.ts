@@ -34,7 +34,7 @@ class LoginStore {
                 this.userName = result.name
                 this.codeUser = result.code_user
 
-                window.location.href = 'http://localhost:3000/home'
+                window.location.href = process.env.NEXT_PUBLIC_URL_WEBCLIENT + '/home' // 'http://localhost:3000/home'
 
                 return
             }

@@ -12,7 +12,6 @@ export class UserRepository {
 
 
     async getList(userCode: string) {
-
         const result = await axios.post(`${this.baseUrlAPI}/get-list-time`, { code_user: userCode })
         return result.data
     }
