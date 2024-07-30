@@ -21,7 +21,7 @@ const Home = observer(() => {
 
                 await userStore.getList(cookieCode!)
             } else {
-                window.location.href = process?.env?.NEXT_PUBLIC_URL_WEBCLIENT ?? ''
+                window.location.href = location.origin
             }
         }
         fetchData()
