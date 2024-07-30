@@ -9,7 +9,8 @@ const Home = observer(() => {
 
     useEffect(() => {
         async function fetchData() {
-
+            const x = process.env.NEXT_PUBLIC_URL
+            debugger
             const cookieCode = GlobalFunctions.getCookie('user_code')
             const cookieName = GlobalFunctions.getCookie('user_name')
 
