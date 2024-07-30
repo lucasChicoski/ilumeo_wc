@@ -15,9 +15,9 @@ Este projeto contempla o desafio proposto para vaga de dev fullstack
 
 ## Variáveis de ambiente
 
-Url para conexão com o banco de dados.
+Url para conexão com a API.
 ```Js
-DATABASE_URL=""
+NEXT_PUBLIC_URL_API=""
 ```
 Url do projeto publicado
 
