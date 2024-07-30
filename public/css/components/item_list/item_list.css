@@ -1,0 +1,30 @@
+.container-item-list {
+    background-color: #28313C;
+    width: 100%;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* padding: 8px; */
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    .date-container{
+        display: flex;
+        justify-content: start;
+        width: 50%;
+        margin-left: 10px;
+        color: #CFCFCF;
+    }
+
+    .hour-container{
+        display: flex;
+        justify-content: end;
+        width: 50%;
+        margin-right: 10px;
+        color: white;
+    }
+}

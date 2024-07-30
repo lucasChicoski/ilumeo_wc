@@ -1,0 +1,234 @@
+@media (max-width: 798px) {
+    .MainFrameHome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .userArea {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #28313C;
+            width: 90%;
+            /* height: 100vh; */
+            color: white;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            width: 300px;
+            padding: 30px;
+
+            .avatar {
+                margin-top: 40px;
+                margin-bottom: 40px;
+                width: 150px;
+                height: 150px;
+                background-color: white;
+                border-radius: 100%;
+            }
+        }
+
+        .reportArea {
+            /* width: 80%; */
+            /* height: 100vh; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .actionReportArea {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                /* width: 40%; */
+                /* background-color: #28313C; */
+                /* background-color: white; */
+
+                .firs-inf {
+                    color: white;
+                    width: 300px;
+                    padding: 30px;
+                    background-color: #28313C;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                }
+            }
+
+            .listBeforeDays {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+                margin-top: 20px;
+                /* background-color: aqua; */
+
+                .containerList {
+
+                    width: 360px;
+                    /* padding: 30px; */
+
+                    /* background-color: blueviolet; */
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 798px) and (max-width: 1024px) {
+    .MainFrameHome {
+        display: flex;
+        flex-direction: row;
+
+        .userArea {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #28313C;
+            width: 400px;
+            height: 100vh;
+            color: white;
+            border-radius: 0px 15px 15px 0px;
+
+            .avatar {
+                margin-top: 40px;
+                margin-bottom: 40px;
+                width: 150px;
+                height: 150px;
+                background-color: white;
+                border-radius: 100%;
+            }
+        }
+
+        .reportArea {
+            width: calc(100% - 400px);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .actionReportArea {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+                /* background-color: #28313C; */
+                /* background-color: white; */
+
+                .firs-inf {
+                    color: white;
+                    width: 300px;
+                    padding: 30px;
+                    background-color: #28313C;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                }
+            }
+
+            .listBeforeDays {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+                margin-top: 20px;
+                /* background-color: aqua; */
+
+                .containerList {
+
+                    width: 360px;
+                    /* padding: 30px; */
+
+                    /* background-color: blueviolet; */
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .MainFrameHome {
+        display: flex;
+        flex-direction: row;
+
+        .userArea {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #28313C;
+            width: 400px;
+            height: 100vh;
+            color: white;
+            border-radius: 0px 15px 15px 0px;
+
+            .avatar {
+                margin-top: 40px;
+                margin-bottom: 40px;
+                width: 150px;
+                height: 150px;
+                background-color: white;
+                border-radius: 100%;
+            }
+        }
+
+        .reportArea {
+            width: calc(100% - 400px);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .actionReportArea {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+                /* background-color: #28313C; */
+                /* background-color: white; */
+
+                .firs-inf {
+                    color: white;
+                    width: 300px;
+                    padding: 30px;
+                    background-color: #28313C;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                }
+            }
+
+            .listBeforeDays {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+                margin-top: 20px;
+                /* background-color: aqua; */
+
+                .containerList {
+
+                    width: 360px;
+                    /* padding: 30px; */
+
+                    /* background-color: blueviolet; */
+                }
+            }
+        }
+    }
+}

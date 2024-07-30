@@ -1,0 +1,37 @@
+@media (max-width: 414px) {
+    .buttonSubmit {
+        background-color: #FE8A00;
+        width: 102%;
+        height: 35px;
+        border: 0;
+        border-radius: 5px;
+    }
+    
+}
+
+@media (min-width: 415px) and (max-width: 1024px) {
+    .buttonSubmit {
+        background-color: #FE8A00;
+        width: 102%;
+        height: 35px;
+        border: 0;
+        border-radius: 5px;
+    }
+    
+}
+
+@media (min-width: 1025px) {
+    .buttonSubmit {
+        font-size: 15px;
+        font-weight: 900;
+        background-color: #FE8A00;
+        width: 102%;
+        height: 35px;
+        border: 0;
+        border-radius: 5px;
+    }
+    .buttonSubmit:hover{
+        cursor: pointer;
+    }
+ 
+}

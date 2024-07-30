@@ -1,0 +1,140 @@
+@media (max-width: 414px) {
+    .mainFrame {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #151F2B;
+
+        .ContainerCenter {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            height: 100px;
+            /* background-color: white; */
+
+            .intpuTextContainer {
+                .intpuText {
+                    height: 35px;
+                    font-size: 20px;
+                    width: 100%;
+                    border: 0px;
+                    background-color: #1E2733;
+                    outline: none;
+                    box-shadow: none;
+                    color: white;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+
+            }
+
+            /* .buttonSubmitContainer {
+
+                
+                .buttonSubmit {
+                    background-color: #FE8A00;
+                    width: 102%;
+                    height: 35px;
+                    border: 0;
+                    border-radius: 5px;
+                }
+
+            } */
+        }
+    }
+}
+
+@media (min-width: 415px) and (max-width: 1024px) {
+    .mainFrame {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #151F2B;
+
+        .ContainerCenter {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 100px;
+            /* background-color: white; */
+
+            .intpuTextContainer {
+                .intpuText {
+                    height: 35px;
+                    font-size: 20px;
+                    width: 100%;
+                    border: 0px;
+                    background-color: #1E2733;
+                    outline: none;
+                    box-shadow: none;
+                    color: white;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+
+            }
+
+            /* .buttonSubmitContainer {
+                .buttonSubmit {
+                    background-color: #FE8A00;
+                    width: 102%;
+                    height: 35px;
+                    border: 0;
+                    border-radius: 5px;
+                }
+
+            } */
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+
+    .mainFrame {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #151F2B;
+
+        .ContainerCenter {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 100px;
+            /* background-color: white; */
+
+            .intpuTextContainer {
+                .intpuText {
+                    height: 35px;
+                    font-size: 20px;
+                    width: 100%;
+                    border: 0px;
+                    background-color: #1E2733;
+                    outline: none;
+                    box-shadow: none;
+                    color: white;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+
+            }
+
+            /* .buttonSubmitContainer {
+                .buttonSubmit {
+                    background-color: #FE8A00;
+                    width: 102%;
+                    height: 35px;
+                    border: 0;
+                    border-radius: 5px;
+                }
+
+            } */
+        }
+    }
+}
