@@ -10,6 +10,7 @@ import "../../public/css/global.css"
 import "../../public/css/pointClock.css"
 import "../../public/css/components/button_submit/button_submit.css"
 import "../../public/css/components/item_list/item_list.css"
+import "../../public/css/components/warning.css"
 
 export default function MyApp({ Component, pageProps }) {
     return (

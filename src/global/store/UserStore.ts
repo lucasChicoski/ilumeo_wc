@@ -35,13 +35,14 @@ class UserStore {
     }
     async submmit(value: ManagementTimeModel) {
         const result = await userController.setTime(value)
-        await this.getList('4SXXFMF')
+        const user_code = GlobalFunctions.getCookie('user_code') as string
+        await this.getList(user_code)
 
     }
 
 
     getInf(): ManagementTimeModel {
-        const userCode = "4SXXFMF"
+        const userCode = GlobalFunctions.getCookie('user_code') as string
         const hashTime = GlobalFunctions.hashMD5(GlobalFunctions.getCurrentDateFill())
         const time = GlobalFunctions.getCurrentDate()
         const status = !this.statusUser ? 'working' : 'not_working'

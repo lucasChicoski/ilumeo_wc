@@ -4,6 +4,7 @@ import userStore from "@/global/store/UserStore"
 import loginStore from "@/global/store/LoginStore"
 import { observer } from "mobx-react"
 import { useEffect, useState } from "react"
+import Warning from "@/Presentation/components/warning"
 
 const Home = observer(() => {
 
@@ -20,7 +21,7 @@ const Home = observer(() => {
 
                 await userStore.getList(cookieCode!)
             } else {
-                window.location.href = 'http://localhost:3000'
+                window.location.href = process?.env?.NEXT_PUBLIC_URL_WEBCLIENT ?? ''
             }
         }
         fetchData()
@@ -50,8 +51,7 @@ const Home = observer(() => {
                 </div>
                 <div className="listBeforeDays" >
                     <div className="containerList" >
-                        {userStore.listBeforeDays?.length > 0 ? userStore.listBeforeDays.map((element) => <ItemList dia={element.date} hour={element.totalHours} />) : 'Sem nenhum registro'}
-
+                        {userStore.listBeforeDays?.length > 0 ? userStore.listBeforeDays.map((element) => <ItemList dia={element.date} hour={element.totalHours} />) : <Warning />}
                     </div>
                 </div>
             </div>
